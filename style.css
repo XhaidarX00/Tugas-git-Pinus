@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #377776;
+    box-sizing: border-box;
+}
+
+
+/* section navbar/header */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.img-logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 15%;
+}
+
+.header-navbar ul {
+    /* default flex adalah auto flex-direction: row;  karena sebelumnya flex-direction: colom;*/
+    display: flex;
+    /* gap hanya bisa dilakukan jika display none blocking artinya selama none blocking gap bisa dipakai */
+    gap: 10px;
+}
+
+.header-navbar ul li {
+    list-style-type: none;
+}
+
+.header-navbar ul li a:hover {
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.header-navbar a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s 0.2s;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+/* section Hero */
+
+#section-hero {
+    display: flex;
+    position: relative;
+}
+
+.img-hero {
+    width: 25%;
+    margin-left: 10%;
+    border-color: black;
+    border-style: double;
+    border-width: 15px;
+}
+
+.text-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.text-hero h1 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: -15%;
+    margin-bottom: 5px;
+}
+
+.text-hero h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: -15%;
+    margin-bottom: 10px;
+}
+
+.text-hero p {
+    font-size: 25px;
+    margin-left: 2%;
+    margin-right: 10%;
+}
+
+.bg-red {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.bg-blue {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.bg-yellow {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.bg-pink {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+    background-color: red;
+}
